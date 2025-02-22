@@ -2,6 +2,9 @@
 
 ## 📌 Overview
 The **Grocery List App** is a simple web-based application that allows users to create and manage their grocery shopping lists efficiently. With features like quantity control, a bought item tracker, smart suggestions, and voice input, it ensures you never forget any essential items!
+
+
+
 Working Link: https://bhavesh122.github.io/Groccery_List/
 
 ## 🚀 Features
@@ -28,8 +31,8 @@ Working Link: https://bhavesh122.github.io/Groccery_List/
    Simply double-click `index.html` or run it with a local server.
 
 ## 📷 Screenshot
-![Grocery List App](<img width="1708" alt="image" src="https://github.com/user-attachments/assets/c61ec4a5-313f-4629-be53-1770cfd16dfe" />
-)
+<img width="1710" alt="Screenshot 2025-02-22 at 2 13 24 PM" src="https://github.com/user-attachments/assets/0f216b19-6c2c-43af-addc-6cf6d768422a" />
+
 
 ## 🏗️ How to Use
 1. **Enter an item** in the text box and click "Add Item."
