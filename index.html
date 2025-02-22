@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Grocery List App</h1>
+        <p class="tagline">Never forget your grocery items again!</p>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Add Grocery Items</h2>
+            <form id="groceryForm">
+                <input type="text" id="itemInput" placeholder="Enter an item..." required>
+                <button type="submit">Add</button>
+                <button type="button" id="voiceInput">🎙️ Voice</button>
+            </form>
+
+            <ul id="groceryList"></ul>
+
+            <!-- Suggestion Box -->
+            <div id="suggestionBox" class="hidden">
+                <p>Would you like to add <span id="suggestedItem"></span>?</p>
+                <button id="addSuggestion">Yes</button>
+                <button id="rejectSuggestion">No</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
